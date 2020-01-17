@@ -1,5 +1,4 @@
 /** @jsx jsx */
-// import React from 'react';
 import { css, keyframes, jsx } from '@emotion/core';
 
 export const defaultBaseColor = '#eee';

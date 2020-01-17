@@ -1,5 +1,5 @@
-import React from 'react';
-import { css } from '@emotion/core';
+/** @jsx jsx */
+import { css, jsx } from '@emotion/core';
 import { defaultBaseColor, defaultHighlightColor } from './Skeleton';
 
 const SkeletonTheme = (props) => {
@@ -20,7 +20,7 @@ const SkeletonTheme = (props) => {
 			);
 		}
 	`;
-	return <div className={themeClass}>{children}</div>;
+	return <div css={themeClass}>{children}</div>;
 };
 
 export default SkeletonTheme;
