@@ -14,8 +14,6 @@ or
 yarn add @wadehrarshpreet/react-loading-skeleton
 ```
 
-
-
 ## Usage
 
 ```jsx
