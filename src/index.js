@@ -1,1 +1,2 @@
-export { default as Demo } from './Demo/Demo.js';
+export { default } from './Skeleton';
+export { default as SkeletonTheme } from './Skeleton/skeleton-theme';

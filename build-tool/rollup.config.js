@@ -5,6 +5,7 @@ import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import babel from 'rollup-plugin-babel';
 import commonjs from 'rollup-plugin-commonjs';
 import replace from '@rollup/plugin-replace';
+import copy from 'rollup-plugin-copy';
 import { terser } from 'rollup-plugin-terser';
 import { sizeSnapshot } from 'rollup-plugin-size-snapshot';
 import { camelize } from 'inflected';
@@ -33,7 +34,14 @@ const externalPattern = new RegExp(`^(${external.join('|')})($|/)`);
 const externalPredicate =
 	external.length === 0 ? () => false : (id) => externalPattern.test(id);
 
-const filename = [pkg.name, `.${format}`, minify ? '.min' : null, '.js']
+const fileNameWithoutPrefix = pkg.name.replace('@wadehrarshpreet/', '');
+
+const filename = [
+	fileNameWithoutPrefix,
+	`.${format}`,
+	minify ? '.min' : null,
+	'.js',
+]
 	.filter(Boolean)
 	.join('');
 
@@ -81,7 +89,15 @@ export default {
 			exclude: 'node_modules/**', // only transpile our source code,
 			runtimeHelpers: true,
 			presets: [here('babelrc.umd.js')],
-			extensions
+			extensions,
+		}),
+		copy({
+			targets: [
+				{
+					src: 'src/Skeleton/index.d.ts',
+					dest: 'dist',
+				},
+			],
 		}),
 		replace(replacements),
 		minify ? terser() : null,

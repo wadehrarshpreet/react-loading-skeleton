@@ -1,6 +1,6 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
 /* eslint-disable indent */
-module.exports = ({ pure, withModules, isUMD = false }) => ({
+module.exports = ({ pure, withModules }) => ({
 	presets: [
 		'@babel/preset-react',
 		...(pure
@@ -30,7 +30,6 @@ module.exports = ({ pure, withModules, isUMD = false }) => ({
 		['@babel/proposal-class-properties', { loose: true }],
 		'@babel/transform-runtime',
 		'minify-dead-code-elimination',
-		
 	],
 	exclude: '**/*.{spec,test}.{js,jsx,tsx,ts}',
 });

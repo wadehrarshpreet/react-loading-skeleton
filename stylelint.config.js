@@ -4,13 +4,10 @@ module.exports = {
 		'no-empty-source': null,
 		'declaration-empty-line-before': null,
 		'no-missing-end-of-source-newline': null,
-		indentation: [
-			'tab',
-			{
-				except: ['value'],
-			},
-		],
+		indentation: null,
+		'function-name-case': null,
 		'block-no-empty': null,
+		'declaration-colon-newline-after': null,
 		'color-no-invalid-hex': true,
 		'declaration-colon-space-after': 'always',
 		'no-eol-whitespace': null,
@@ -21,6 +18,6 @@ module.exports = {
 				ignore: ['after-comment'],
 			},
 		],
-		'unit-whitelist': ['em', 'rem', '%', 's', 'vw', 'vh', 'px'],
+		'unit-whitelist': ['em', 'rem', '%', 's', 'vw', 'vh', 'px', 'deg'],
 	},
 };

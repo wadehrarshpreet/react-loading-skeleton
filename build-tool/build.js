@@ -131,6 +131,7 @@ function getBabelCommands() {
 			`--out-dir dist/${name}`,
 			'--ignore src/**/*.test.js',
 			'--ignore src/**/*.test.jsx',
+			'--ignore src/**/*.d.ts',
 			`--extensions ${extensions.join(',')}`,
 			'src',
 		].join(' ');
