@@ -1,7 +1,7 @@
 {
 	"name": "@wadehrarshpreet/react-loading-skeleton",
 	"homepage": "https://github.com/wadehrarshpreet/react-loading-skeleton",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "React Loading Skeleton Library",
 	"repository": {
 		"type": "git",
@@ -63,7 +63,7 @@
 		]
 	},
 	"dependencies": {
-		"@emotion/core": "^10.0.22"	
+		"@emotion/core": "^10.0.22"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.7.0",

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/wadehrarshpreet/react-loading-skeleton/compare/v0.0.3...v0.0.4) (2020-01-17)
+
+
+### Bug Fixes
+
+* dependecy fix ([eda397a](https://github.com/wadehrarshpreet/react-loading-skeleton/commit/eda397aa4d734db1697ce796bdb29bf54bd6ddfa))
+
 ### [0.0.3](https://github.com/wadehrarshpreet/react-loading-skeleton/compare/v0.0.2...v0.0.3) (2020-01-17)
 
 
