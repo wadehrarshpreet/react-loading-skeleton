@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/wadehrarshpreet/react-loading-skeleton/compare/v0.0.2...v0.0.3) (2020-01-17)
+
+
+### Bug Fixes
+
+* remove [@emotion](https://github.com/emotion) as peerDep ([72f8623](https://github.com/wadehrarshpreet/react-loading-skeleton/commit/72f8623c2de1c57a5a97e6583058582640082f02))
+
 ### [0.0.2](https://github.com/wadehrarshpreet/react-loading-skeleton/compare/v0.0.1...v0.0.2) (2020-01-17)
 
 
