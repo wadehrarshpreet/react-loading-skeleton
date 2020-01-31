@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/wadehrarshpreet/react-loading-skeleton/compare/v0.0.4...v0.0.5) (2020-01-31)
+
+
+### Features
+
+* support of className ([be4fb08](https://github.com/wadehrarshpreet/react-loading-skeleton/commit/be4fb08a07a39ec3dc95b62bfb045f41224e786d))
+
 ### [0.0.4](https://github.com/wadehrarshpreet/react-loading-skeleton/compare/v0.0.3...v0.0.4) (2020-01-17)
 
 
