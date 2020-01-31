@@ -37,6 +37,7 @@ export default function Skeleton({
 	wrapper: Wrapper,
 	height,
 	circle,
+	className,
 }) {
 	const elements = [];
 
@@ -60,7 +61,7 @@ export default function Skeleton({
 	}
 
 	return (
-		<span>
+		<span className={className}>
 			{Wrapper
 				? elements.map((element, i) => (
 						// eslint-disable-next-line react/jsx-indent
